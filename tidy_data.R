@@ -9,7 +9,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 take_tidy_data <- function(filepath){
-  # THIS FUNCTIONS WORK ONLY WITH household_power_consumption.txt!!!
+  # THIS FUNCTION WORK ONLY WITH household_power_consumption.txt!!!
   # https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
   
   header <- read.table(filepath, sep = ";", nrow = 1)
